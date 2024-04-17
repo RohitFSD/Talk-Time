@@ -87,7 +87,7 @@ function Chat(props) {
       }
 
     }
-    isValid()
+    // isValid()
   }, [])
   if (loading) {
     return <div className={props.className}>

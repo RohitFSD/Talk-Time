@@ -152,7 +152,7 @@ function Home() {
 
               </div> : <Profile className="min-w-[100%] sm:min-w-[360px] h-[100vh] bg-[#fafafa] shodow-xl relative" />
           }
-          <Chat className="chat-page relative lg:w-[100%] h-[100vh] bg-[#fafafa]" />
+           <Chat className="chat-page relative lg:w-[100%] h-[100vh] bg-[#fafafa]" />
 
 
 

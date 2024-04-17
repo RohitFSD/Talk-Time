@@ -44,6 +44,9 @@ function Login() {
     e.preventDefault()
     if (formData.email.includes("@") && formData.password.length > 6) {
       setIsLoading(true)
+      toast.success("Succesfully Login!")
+        setIsLoading(false)
+        pageRoute("/chats")
       const { data } = await loginUser(formData)
       if (data?.token) {
         localStorage.setItem("userToken", data.token)
